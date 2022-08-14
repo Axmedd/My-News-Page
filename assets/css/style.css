@@ -1,0 +1,31 @@
+:root {
+  --header: #0066ff;
+  --footer: #0066ff;
+  --headline: #ff4b3e;
+}
+
+.nav-bar {
+  background-color: var(--header);
+  display: block;
+  justify-content: space-between;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.covid-cases-container {
+  background-color: var(--header);
+}
+
+.contents {
+  margin-top: auto;
+}
+
+.visibilty {
+  visibility: hidden;
+}
+
+.hide {
+  display: none;
+}
