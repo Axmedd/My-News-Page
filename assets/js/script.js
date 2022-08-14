@@ -71,10 +71,13 @@ function handleNewsApi() {
 }
 
 function handleNewsData(newsData) {
+  console.log(newsData);
   h2ForLatest = document.createElement("h2");
-  h2ForLatest.textContent = firstApiData.data[i].title;
+  h2ForLatest.textContent = newsData.title;
   latestHeadlines.appendChild(h2ForLatest);
 }
+
+handleNewsData();
 
 function handleSportsData(sportsData) {}
 //console.log(data[i].description);
